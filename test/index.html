@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Api</title>
+</head>
+<body>
+<h1>Test API</h1>
+<script>
+  fetch('http://localhost:3000/rest/todo', {
+    method: 'GET', // *GET, POST, PUT, DELETE, etc.
+    headers: {
+      'Content-Type': 'application/json'
+    },
+
+  })
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      console.log(data);
+    });
+</script>
+</body>
+</html>
