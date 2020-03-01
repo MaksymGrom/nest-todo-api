@@ -1,3 +1,5 @@
+<h1><a href="https://www.youtube.com/playlist?list=PL4rYLeYunVf0q7eb6B43jVlLZ5X1KZvky" alt="youtube уроки">Смотреть полный курс</a></h1>
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
