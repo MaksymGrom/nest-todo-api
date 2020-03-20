@@ -1,77 +1,63 @@
-<h1><a href="https://www.youtube.com/playlist?list=PL4rYLeYunVf0q7eb6B43jVlLZ5X1KZvky" alt="youtube уроки">Смотреть полный курс</a></h1>
+<h1><a href="https://www.youtube.com/playlist?list=PL4rYLeYunVf0q7eb6B43jVlLZ5X1KZvky" alt="youtube уроки">Смотреть
+    полный курс</a></h1>
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+    <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320"
+                                                     alt="Nest Logo"/></a>
 </p>
 
-[travis-image]: https://api.travis-ci.org/nestjs/nest.svg?branch=master
-[travis-url]: https://travis-ci.org/nestjs/nest
-[linux-image]: https://img.shields.io/travis/nestjs/nest/master.svg?label=linux
-[linux-url]: https://travis-ci.org/nestjs/nest
-  
-  <p align="center">A progressive <a href="http://nodejs.org" target="blank">Node.js</a> framework for building efficient and scalable server-side applications, heavily inspired by <a href="https://angular.io" target="blank">Angular</a>.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/dm/@nestjs/core.svg" alt="NPM Downloads" /></a>
-<a href="https://travis-ci.org/nestjs/nest"><img src="https://api.travis-ci.org/nestjs/nest.svg?branch=master" alt="Travis" /></a>
-<a href="https://travis-ci.org/nestjs/nest"><img src="https://img.shields.io/travis/nestjs/nest/master.svg?label=linux" alt="Linux" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#5" alt="Coverage" /></a>
-<a href="https://gitter.im/nestjs/nestjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge"><img src="https://badges.gitter.im/nestjs/nestjs.svg" alt="Gitter" /></a>
-<a href="https://opencollective.com/nest#backer"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec"><img src="https://img.shields.io/badge/Donate-PayPal-dc3d53.svg"/></a>
-  <a href="https://twitter.com/nestframework"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<h2>Настройка проекта</h2>
+<p>Скорее всего тебе нужен API для работы со своим любимым frontend фреймворком</p>
+<ul>
+    <li>Angular</li>
+    <li>Vuejs</li>
+    <li>Ractjs</li>
+    <li>Knokoutjs (Как это сюда попало?)</li>
+</ul>
+<p>По этому я собрал инструкцию по установки для самых маленьких</p>
 
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
+<ol>
+    <li>
+        <h3>установить nestjs глобально (нужен <a href="https://nodejs.org/en/download/">npm, nodejs</a>)</h3>
+        <p><a href="https://docs.nestjs.com/">Официальная документация</a></p>
+        <p><strong>npm i -g @nestjs/cli</strong></p>
+    </li>
+    <li>
+        <h3>установить проект из репозитория (нужен <a href="https://git-scm.com/book/ru/v2/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-Git">git</a>)</h3>
+        <p><a href="https://github.com/MaksymGrom/nest-todo-api">https://github.com/MaksymGrom/nest-todo-api</a></p>
+        <p><strong>git clone https://github.com/MaksymGrom/nest-todo-api.git backend</strong></p>
+        <p><strong>cd backend</strong></p>
+    </li>
+    <li>
+        <h3>скопировать файл ormconfig.json.sample как ormconfig.json</h3>
+        <p><strong>указать свои настройки БД</strong></p>
+    </li>
+    <li>
+        <h3>запустить сервер mysql я это делаю через <a href="https://www.youtube.com/watch?v=_E81YkUnxSM">xampp</a></h3>
+    </li>
+    <li>
+        <h3>добавить новую БД и записать ее название в конфиг</h3>
+    </li>
+    <li>
+        <h3>запустить в терминале</h3>
+        <p>npm install</p>
+        <p>npm start</p>
+    </li>
+    <li>
+        <h3>открыть документацию проекта</h3>
+        <p><a href="http://localhost:3000/swagger">Документация</a></p>
+        <p>npm start</p>
+    </li>
+    <li>
+        <h3>создаем пару записей через swagger</h3>
+        <pre>
+            { "title": "Подпишись на канал WebDev. GromMax" }
+            { "title": "Поделись этим видео с друзьями" }
+            { "title": "Поставь колокольчик" }
+            { "title": "Оставь комантарий более 5 слов :) Чтобы ты помог ютубу понять что видео стоит рекомендовать" }
+        </pre>
+    </li>
+    <li>
+        <h3>Установи свой любимый frontend framework. Все что нужно есть в swagger</h3>
+    </li>
+</ol>
